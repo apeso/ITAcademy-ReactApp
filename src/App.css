@@ -1,0 +1,104 @@
+#root{
+  width: 100%;
+  height: 100%;
+}
+
+.App {
+  margin-top: 70px;
+  display: block;
+  flex-direction: column; 
+  align-items: center;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .button-add {
+    top: 70px; 
+    right: 10px;
+  }
+  .tab {
+      padding: 10px 15px; 
+      margin: 0 5px; 
+    }
+}
+.button-add {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.button-add:hover {
+  background-color: #218838;
+}
+.tab {
+  color:white;
+  padding: 10px 20px;
+  margin-top: 100px;
+  margin-left: 10;
+  margin-right: 10;
+  font-weight:100; 
+  
+}
+
+.tab.active {
+  border-color: #007bff; 
+  color: #007bff;
+}
+.adminpages{
+  color: white;
+  margin-top: 20px;
+}
+
+  
+.card-actions {
+  justify-content: center;
+  border-top: 1px solid #e0e0e0;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+
+.card-image {
+  flex: 1;
+}
+
+.card-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  background-color: white; 
+}
+.moja-slika{
+  
+  width: 200px;
+  height: fit-content;
+
+}
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+/* Error page*/
+.error-page {
+  text-align: center;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+}
+
+
+.home-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
