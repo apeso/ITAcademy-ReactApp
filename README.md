@@ -25,43 +25,23 @@ Getting Started 🚀
 Prerequisites
 
     Node.js (v14 or later)
-    npm (v6 or later) or yarn
+    npm (v6 or later)
 
 Installation
 
     Clone the repository
+    git clone https://github.com/apeso/ITAcademy-ReactApp.git
 
-bash
+    
+    cd Projekt
 
-git clone https://github.com/apeso/ReactApp.git
-cd ReactApp
+Install dependencies
 
-    Install dependencies
+    npm install
 
-Using npm:
+Run the application
 
-bash
+    npm run dev
 
-npm install
 
-Using yarn:
-
-bash
-
-yarn install
-
-    Run the application
-
-Using npm:
-
-bash
-
-npm start
-
-Using yarn:
-
-bash
-
-yarn start
-
-The application should now be running on http://localhost:3000.
+The application should now be running on http://localhost:5173.
