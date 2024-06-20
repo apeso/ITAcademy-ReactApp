@@ -1,0 +1,210 @@
+{"intents": [
+    {"tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+      "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?","Hello! Are you ready to find a perfect tutorial for your programming journey?",
+    "Hi there! Are you ready to explore some programming tutorials?"]
+      
+    },
+    {"tag": "goodbye",
+      "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+      
+    },
+    {
+      "tag": "ready_to_start",
+      "patterns": ["I'm ready", "Let's start", "Yes, let's begin", "Ready to find a tutorial", "Let's find a tutorial","Sure", "Yes","Let's go"],
+      "responses": [
+        "Great! Are you looking for a programming tutorial? I can help you find the perfect one.How long you are developer?",
+        "Great! What is your seniority level?", "How long you are developer?",
+        "Perfect! Let's find the ideal programming tutorial for you. Could you tell me a bit about your current programming knowledge?"
+      ]
+    },
+    {
+      "tag": "previous_knowledge",
+      "patterns": ["I'm a beginner", "I'm intermediate", "I'm advanced","I am senior","My programming level is junior/senior",
+        "I have basic programming knowledge"],
+      "responses": [
+        "Got it! What are you looking to achieve with your programming skills?",
+        "Are you looking to develop a specific project, prepare for a job, or something else?",
+        "That's awesome! What are you hoping to achieve by learning programming?"
+      ]
+    },
+    {
+      "tag": "learning_goals",
+      "patterns": [
+        "I want to learn programming",
+        "I need to improve my coding skills",
+        "Looking for a programming tutorial",
+        "Interested in learning programming"
+      ],
+      "responses": [
+        "That's great! What is your main goal for learning programming?"
+      ]
+    },
+    {
+      "tag": "goal_project",
+      "patterns": [
+        "Develop a specific project",
+        "Build a web/mobile/desktop application",
+        "Create a portfolio project",
+        "Work on a personal project",
+        "Build something useful"
+      ],
+      "responses": [
+        "Fantastic! What type of project are you interested in developing?",
+        "Exciting! What kind of application or project would you like to build?"
+      ]
+    },
+    {
+      "tag": "job_preparation",
+      "patterns": [
+        "Prepare for a job in programming",
+        "Get a programming job",
+        "Learn skills for career advancement",
+        "Transition to software development",
+        "Become a software engineer"
+      ],
+      "responses": [
+        "Understood! What level of job position are you targeting in programming?"
+      ]
+    },
+    {"tag": "programming",
+      "patterns": ["What is progamming?", "What is coding?", "Tell me about programming", "Tell me about coding", "What is software development?"],
+      "responses": ["Programming, coding or software development, means writing computer code to automate tasks."]
+      
+    },
+    {"tag": "resource",
+      "patterns": ["Where can I learn to code?", "Best way to learn to code", "How can I learn programming", "Good programming resources", "Can you recommend good coding resources?"],
+      "responses": ["You can find many tutorials on this page that will help you to become programmer."]
+    },
+    
+    {
+      "tag": "goal_hobby",
+      "patterns": [
+        "Dive into a new hobby",
+        "Explore programming as a hobby",
+        "Learn for personal interest",
+        "Just curious about programming"
+      ],
+      "responses": [
+       "How do you prefer to learn?",
+        "What learning format do you find most effective for you?"
+      ]
+    },
+    {
+      "tag": "learning_style",
+      "patterns": [
+        "I prefer interactive tutorials",
+        "Video lessons are my choice",
+        "I like reading documentation",
+        "I want to attend workshops",
+        "Hands-on learning works best for me",
+        "I learn better through practice"
+      ],
+      "responses": [
+        "How much time can you dedicate to learning each week?",
+        "What is your weekly availability for learning?"
+      ]
+    },
+    {
+      "tag": "time_commitment",
+      "patterns": [
+        "I can dedicate a few hours daily",
+        "I prefer longer sessions on weekends",
+        "I have limited time",
+        "Flexible with my time commitment",
+        "I'm busy but can make time for learning"
+      ],
+      "responses": [
+        "Do you have a budget for this?",
+        "Are you looking for free resources or are you willing to invest in paid courses?"
+      ]
+    },
+    {
+      "tag": "budget",
+      "patterns": [
+        "Looking for free resources",
+        "Open to paid courses",
+        "No specific budget constraints",
+        "Prefer free tutorials",
+        "I have a limited budget"
+      ],
+      "responses": [
+        "Based on your preferences, here are some recommended tutorials: [list of tutorials]. Would you like more details about any of these?",
+        "Sure! Here are some great programming tutorials: [list of tutorials]. Let me know if you want more information on any of these."
+      ]
+    },
+    {
+      "tag": "recommendations",
+      "patterns": [
+        "Can you recommend good coding resources?",
+        "What tutorials would you suggest?",
+        "Any recommendations for learning materials?",
+        "Suggest some programming courses"
+      ],
+      "responses": [
+        "Based on your preferences, here are some recommended tutorials: [list of tutorials]. Would you like more details about any of these?",
+        "Sure! Here are some great programming tutorials: [list of tutorials]. Let me know if you want more information on any of these."
+      ]
+    },
+    {
+      "tag": "additional_support",
+      "patterns": [
+        "Need more information on a specific course",
+        "Want to explore more options",
+        "Any additional resources you can suggest?",
+        "I'm undecided on which course to choose"
+      ],
+      "responses": [
+        "Sure! What else would you like to know or explore?"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks a lot",
+        "Thanks for your help",
+        "Appreciate it",
+        "Thanks"
+      ],
+      "responses": [
+        "You're welcome! Feel free to ask if you have any more questions.",
+        "No problem! If you have any more questions, just let me know."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "See you later",
+        "Goodbye",
+        "I am Leaving",
+        "Have a Good day",
+        "bye",
+        "see ya",
+        "ciao"
+      ],
+      "responses": [
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye!"
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "",
+        "Hmm...",
+        "I don't understand",
+        "Can you repeat that?",
+        "Sorry, I'm not sure I understand",
+        "What do you mean?"
+      ],
+      "responses": [
+        "I'm sorry, I didn't quite catch that. Can you please rephrase or ask another question?",
+        "Could you please say that again? I'm not sure I understand."
+      ]
+    } 
+  ]
+  }
