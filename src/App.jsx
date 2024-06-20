@@ -11,6 +11,8 @@ import Header from './components/Header/Header';
 import Login from './components/Auth/Login';
 import Register from './components/Auth/Register';
 import Error from './pages/Error';
+import Asistent from './pages/Asistent';
+import ContactInfo from './components/Home/ContactInfo';
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
         <Route path="/" element={<Home />} exact ></Route>
         <Route path="/radionice" element={<Radionice />}></Route>
         <Route path="/predavaci" element={<Predavaci />}></Route>
+        <Route path='/asistent' element={<Asistent />} />
         <Route path="/login" element={<Login />}></Route>
         <Route path="/register" element={<Register />}></Route>
         <Route path="/profile" element={<UserProfile />}></Route>
@@ -28,6 +31,7 @@ function App() {
         <Route path="/administracija" element={<Administracija />}></Route>
         <Route path='/error' element={<Error />} />
       </Routes>
+      <footer><ContactInfo /></footer>
     </Router>       
     </div>
   )

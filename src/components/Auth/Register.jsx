@@ -14,7 +14,6 @@ import {
 } from '@mui/material';
 import PhotoCamera from '@mui/icons-material/PhotoCamera';
 import CheckIcon from '@mui/icons-material/Check';
-import ContactInfo from '../Home/ContactInfo.jsx';
 
 const Register = () => {
     const navigate = useNavigate();
@@ -208,7 +207,6 @@ const Register = () => {
                 </Typography>
             </Box>
         </Container>
-        <ContactInfo />
         </>
     );
 };

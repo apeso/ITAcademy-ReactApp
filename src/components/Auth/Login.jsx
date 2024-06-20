@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Navigate, Link } from 'react-router-dom';
 import { doSignInWithEmailAndPassword } from '../../auth.js';
 import { useAuth} from '../../context/UserContext.jsx';
-import ContactInfo from '../Home/ContactInfo';
 import {
     Box,
     Button,
@@ -105,7 +104,6 @@ const Login = () => {
                 </Typography>
             </Box>
         </Container>
-         <ContactInfo />
         </>
     );
 };

@@ -37,6 +37,9 @@ const Navigacija = () => {
         {!isAdmin && (
           <Button component={Link} to="/predavaci" sx={{ color: 'black' }}>Tutors</Button>
         )}
+        {!isAdmin && (
+          <Button component={Link} to="/asistent" sx={{ color: 'black' }}>Assistent</Button>
+        )}
         {isAdmin && (
           <Button component={Link} to="/administracija" sx={{ color: 'black' }}>
             Admin

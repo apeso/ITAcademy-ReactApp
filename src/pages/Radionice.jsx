@@ -5,7 +5,6 @@ import { useAuth } from '../context/UserContext';
 import { getRadionice } from '../firebase/CRUD_Radionice';
 import FilterTeme from '../components/Radionice/FilterTeme';
 import RadionicaCard from '../components/Radionice/RadionicaCard';
-import ContactInfo from '../components/Home/ContactInfo';
 import FilterTezine from '../components/Radionice/FilterTezine';
 import "../style/Workshops.css";
 
@@ -106,7 +105,6 @@ const Radionice = () => {
           </div>
         </div>
       </div>
-      <ContactInfo />
     </>
   );
 };

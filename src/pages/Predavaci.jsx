@@ -5,7 +5,6 @@ import { CircularProgress, Typography } from '@mui/material';
 import { getPredavaciITeme } from '../firebase/CRUD_Predavaci';
 import PredavacCard from '../components/Predavaci/PredavacCard';
 import TopSection from '../components/Predavaci/TopSection';
-import ContactInfo from '../components/Home/ContactInfo';
 import '../style/Tutors.css';
 
 const Predavaci = () => {
@@ -76,7 +75,6 @@ const Predavaci = () => {
           </div>
         </div>
       )}
-      <ContactInfo />
     </>
   );
 };
