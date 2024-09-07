@@ -25,6 +25,7 @@ const Radionice = () => {
       const fetchedRadionice = await getRadionice();
       setOriginalneRadionice(fetchedRadionice);
       setRadionice(fetchedRadionice);
+      console.log(radionice);
     } catch (error) {
       console.error('Došlo je do pogreške prilikom dohvaćanja radionice:', error);
     } finally {

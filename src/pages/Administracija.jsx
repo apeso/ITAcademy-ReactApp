@@ -57,9 +57,9 @@ export default function Administracija() {
             
             aria-label="basic tabs example"
           >
-            <Tab  className='tab'  label="Radionice" {...a11yProps(0)} />
-            <Tab className='tab'  label="Predavači" {...a11yProps(1)} />
-            <Tab className='tab' label="Organizacije" {...a11yProps(2)} />
+            <Tab  className='tab'  label="Workshops" {...a11yProps(0)} />
+            <Tab className='tab'  label="Tutors" {...a11yProps(1)} />
+            <Tab className='tab' label="Organizations" {...a11yProps(2)} />
           </Tabs>
         </Box>
         <CustomTabPanel value={value} index={0}>

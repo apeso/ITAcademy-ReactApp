@@ -25,7 +25,8 @@ function Radionice() {
     useEffect(() => { 
         fetchRadionice();
       }, []);
-    
+
+   
     const handleOpenClick = () => {
         setShowNovuRadionicu(true);
       };
@@ -44,9 +45,9 @@ function Radionice() {
     return (
         <> 
         <Button variant="outlined" style={{ border: "1px solid orange", color: "orange" , marginRight:'20px'}} className='button-add0' onClick={handleOpenClick}>
-                + Dodaj novu radionicu
+                + Add new workshop
           </Button> 
-         <Button variant="outlined" onClick={handleOpenDialog}>Dodaj novu temu radionice</Button>
+         <Button variant="outlined" onClick={handleOpenDialog}>Add a theme of workshop</Button>
             <TablicaRadionice radionice={radionice} isLoading={isLoading} setIsLoading={setIsLoading} fetchRadionice={fetchRadionice} /> <br />
             
             

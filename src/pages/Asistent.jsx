@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect,useRef } from 'react';
 import '../style/Asistent.css';
 
 const Asistent = () => {
-  const [messages, setMessages] = useState([{sender:'bot', text:"Hi! How I can help you today?"}]);
+  const [messages, setMessages] = useState([{sender:'bot', text:"Hello!"}]);
   const [input, setInput] = useState('');
 
   const handleSend = async () => {
@@ -17,6 +17,12 @@ const Asistent = () => {
     const botMessage = { sender: 'bot', text: response };
 
     setMessages([...messages, userMessage, botMessage]);
+    const el = document.getElementById('chatbot-messages');
+
+    if (el) {
+      el.scrollBottom = el.scrollHeight; // ovo bi tribalo scrollTop
+    }
+
   };
 
   const getChatbotResponse = async (message) => {
@@ -35,7 +41,7 @@ const Asistent = () => {
       }
   
       const data = await response.json();
-      return data.message; // Assuming your server returns a JSON object with a 'message' property
+      return data.message; 
     } catch (error) {
       console.error('Error fetching data:', error);
       return 'Sorry, there was an error processing your request. Please try again later.';
@@ -69,7 +75,7 @@ const Asistent = () => {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyPress={(e) => e.key === 'Enter' && handleSend()}
-            placeholder="Type a message..."
+            placeholder="Send a message..."
           />
           <button onClick={handleSend}>
             Send

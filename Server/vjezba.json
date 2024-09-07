@@ -1,0 +1,171 @@
+{
+    "intents":
+    [
+        {
+        "tag": "workshop_java",
+        "patterns": [
+            "I am interested in a Java workshop",
+            "Java workshop",
+            "I want to learn Java",
+            "Do you have any Java workshops?",
+            "Can you recommend a Java workshop?",
+            "Java"
+          ],
+        "responses": ["What is your current level of programming knowledge?", "How would you rate your programming skills? Basic, intermediate, advanced?"]
+        
+      },
+      {
+        "tag": "workshop_react",
+        "patterns": [
+            "I am interested in a React workshop",
+            "React workshop",
+            "I want to learn React",
+            "Do you have any React workshops?",
+            "Can you recommend a React workshop?",
+            "React"
+          ],
+        "responses": ["What is your current level of programming knowledge?", "How would you rate your programming skills? Basic, intermediate, advanced?"]
+      },
+      {
+        "tag": "workshop_php",
+        "patterns": [
+        "I am interested in a PHP workshop",
+        "PHP workshop",
+        "I want to learn PHP",
+        "Do you have any PHP workshops?",
+        "Can you recommend a PHP workshop?",
+        "PHP"
+        ],
+        "responses": ["What is your current level of programming knowledge?", "How would you rate your programming skills? Basic, intermediate, advanced?"]
+      },
+
+      {
+        "tag": "workshop_wordpress",
+        "patterns":[
+            "I am interested in a Wordpress workshop",
+            "Wordpress workshop",
+            "I want to learn Wordpress",
+            "Do you have any Wordpress workshops?",
+            "Can you recommend a Wordpress workshop?",
+            "Wordpress"
+          ],
+        "responses": ["What is your current level of programming knowledge?", "How would you rate your programming skills? Basic, intermediate, advanced?"]
+      },
+      {
+        "tag": "workshop_python",
+        "patterns":[
+            "I am interested in a Python workshop",
+            "Python workshop",
+            "I want to learn Python",
+            "Do you have any Python workshops?",
+            "Can you recommend a Python workshop?",
+            "Python"
+          ],
+        "responses": ["What is your current level of programming knowledge?", "How would you rate your programming skills? Basic, intermediate, advanced?"]
+      },
+
+      {
+        "tag": "workshop_C#",
+        "patterns":[
+            "I am interested in a C# workshop",
+            "C# workshop",
+            "I want to learn C#",
+            "Do you have any C# workshops?",
+            "Can you recommend a C# workshop?",
+            "C#"
+          ],
+        "responses": ["What is your current level of programming knowledge?", "How would you rate your programming skills? Basic, intermediate, advanced?"]
+      },
+
+      {
+        "tag": "workshop_Javascript",
+        "patterns":[
+            "I am interested in a JavaScript workshop",
+            "JavaScript workshop",
+            "I want to learn JavaScript",
+            "Do you have any JavaScript workshops?",
+            "Can you recommend a JavaScript workshop?",
+            "JavaScript"
+          ],
+        "responses": ["What is your current level of programming knowledge?", "How would you rate your programming skills? Basic, intermediate, advanced?"]
+      },
+      {
+        "tag": "workshop_ruby",
+        "patterns": [
+          "I am interested in a Ruby workshop",
+          "Ruby workshop",
+          "I want to learn Ruby",
+          "Do you have any Ruby workshops?",
+          "Can you recommend a Ruby workshop?",
+          "Ruby"
+        ],
+        "responses": [
+          "What is your current level of programming knowledge?",
+          "How would you rate your programming skills? Basic, intermediate, advanced?",
+          "Are you looking for a beginner, intermediate, or advanced Ruby workshop?"
+        ]
+      },
+      {
+        "tag": "workshop_go",
+        "patterns": [
+          "I am interested in a Go workshop",
+          "Go workshop",
+          "I want to learn Go",
+          "Do you have any Go workshops?",
+          "Can you recommend a Go workshop?",
+          "Go"
+        ],
+        "responses": [
+          "What is your current level of programming knowledge?",
+          "How would you rate your programming skills? Basic, intermediate, advanced?",
+          "Are you looking for a beginner, intermediate, or advanced Go workshop?"
+        ]
+      },
+      {
+        "tag": "experience_junior",
+        "patterns": [
+          "I am a beginner",
+          "I am a junior",
+          "I have basic knowledge",
+          "I am new to programming",
+          "I have limited experience",
+          "Junior level"
+        ],
+        "responses": [
+          "Great! Would you like to develop a specific project? Here are some options: Basics, Web Applications, Mobile Applications, UI/UX Design, Artificial Intelligence, Machine Learning, Data Analysis, Data Security, DevOps, Internet of Things (IoT), Blockchain Technology, Software Engineering, Game Development.",
+          "What type of project are you interested in? Basics, Web Applications, Mobile Applications, UI/UX Design, Artificial Intelligence, Machine Learning, Data Analysis, Data Security, DevOps, Internet of Things (IoT), Blockchain Technology, Software Engineering, Game Development?"
+        ]
+      },
+      {
+        "tag": "experience_mid",
+        "patterns": [
+          "I am intermediate",
+          "I am a mid-level developer",
+          "I have some experience",
+          "I am mid-level",
+          "I have intermediate skills",
+          "Mid level"
+        ],
+        "responses": [
+          "Great! Would you like to develop a specific project? Here are some options: Basics, Web Applications, Mobile Applications, UI/UX Design, Artificial Intelligence, Machine Learning.",
+          "What type of project are you interested in? Basics, Web Applications, Mobile Applications, UI/UX Design, Artificial Intelligence, Machine Learning?"
+        ]
+      },
+      {
+        "tag": "experience_senior",
+        "patterns": [
+          "I am advanced",
+          "I am a senior",
+          "I have extensive experience",
+          "I am a seasoned developer",
+          "I have advanced skills",
+          "Senior level"
+        ],
+        "responses": [
+          "Great! Would you like to develop a specific project? Here are some options: Basics, Web Applications, Mobile Applications.",
+          "What type of project are you interested in? Basics, Web Applications, Mobile Applications, UI/UX Design, Artificial Intelligence, Machine Learning?"
+        ]
+      }
+
+    ]
+}

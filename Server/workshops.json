@@ -1,0 +1,138 @@
+[
+    {
+        "tag": "3pemmnSBtIy67I58JnM6",
+        "pattern": {
+            "naziv": "Advanced React course",
+            "tema": "React",
+            "opis": "Have you mastered the Basic React Course?\nNow it's time for an upgrade!\n",
+            "tezina": "Senior",
+            "preparationType": "Mobile Applications",
+            "learningStyle": "Interactive",
+            "dailyCommitment": "3 times a week",
+            "predavac": "Ivana Kosor\u010di\u0107",
+            "cijena": "250\u20ac",
+            "duration": "3 weeks",
+            "slika": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQTEsvWjfokDYKQ3ZIlhi49CB9ZWkGyM90uUGUas_Z3A&s"
+        },
+        "response": "3pemmnSBtIy67I58JnM6"
+    },
+    {
+        "tag": "4fNwrLHDpzTup7NhkgU4",
+        "pattern": {
+            "naziv": "Java Upgrade",
+            "tema": "Java",
+            "opis": "Do you want to move from being a Junior Java Developer to a Mid Java Developer?\nYou're in the right place!\nFill out the application while there are still spots available.",
+            "tezina": "Mid",
+            "preparationType": "Basics",
+            "learningStyle": "Live",
+            "dailyCommitment": "Once a week",
+            "predavac": "\u017dana Novak",
+            "cijena": "250\u20ac",
+            "duration": "1 week",
+            "slika": "https://thumbs.dreamstime.com/b/java-logo-editorial-illustrative-white-background-eps-download-vector-jpeg-banner-java-logo-editorial-illustrative-white-208329454.jpg"
+        },
+        "response": "4fNwrLHDpzTup7NhkgU4"
+    },
+    {
+        "tag": "DCjSQ6n6cdkmyIajhyTl",
+        "pattern": {
+            "naziv": "Wordpress VOL 3",
+            "tema": "Wordpress",
+            "opis": "Think you know everything about WordPress? There's always more to learn!\nEnhance your skills with the ultimate course.",
+            "tezina": "Senior",
+            "preparationType": "Web Applications",
+            "learningStyle": "Live",
+            "dailyCommitment": "3 times a week",
+            "predavac": "\u017dana Novak",
+            "cijena": "100\u20ac",
+            "duration": "2 weeks",
+            "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/1024px-WordPress_blue_logo.svg.png"
+        },
+        "response": "DCjSQ6n6cdkmyIajhyTl"
+    },
+    {
+        "tag": "LSbeEVUS5Jv1Xe2rrPzg",
+        "pattern": {
+            "naziv": "Wordpress VOL 1",
+            "tema": "Wordpress",
+            "opis": "Upon completing this seminar, you will understand the specifics of Content Management Systems (CMS), learn the basics of the PHP programming language, and grasp the fundamentals of MySQL databases.\n\nNau\u010dit \u0107ete korake izrade stranice na CMS sustavu, instalirati WordPress i izra\u0111ivati stranice, postove, predlo\u0161ke.\n",
+            "tezina": "Junior",
+            "preparationType": "Web Applications",
+            "learningStyle": "Video Lessons",
+            "dailyCommitment": "As desired",
+            "predavac": "\u017dana Novak",
+            "cijena": "20\u20ac",
+            "duration": "4 weeks",
+            "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/1024px-WordPress_blue_logo.svg.png"
+        },
+        "response": "LSbeEVUS5Jv1Xe2rrPzg"
+    },
+    {
+        "tag": "QP9CJaQIx4LafuEWled5",
+        "pattern": {
+            "naziv": "PHP Course",
+            "tema": "PHP",
+            "opis": "After completing the course, you will be ready for advanced challenges in PHP programming and possess the necessary knowledge and skills to develop high-quality web applications. Join us and take your web development career to the next level!",
+            "tezina": "Senior",
+            "preparationType": "Web Applications",
+            "learningStyle": "Interactive",
+            "dailyCommitment": "3 times a week",
+            "predavac": "Petar Lon\u010dar",
+            "cijena": "120\u20ac",
+            "duration": "3 weeks",
+            "slika": "https://logowik.com/content/uploads/images/php.jpg"
+        },
+        "response": "QP9CJaQIx4LafuEWled5"
+    },
+    {
+        "tag": "WdmntI8tiM9aw3dvvTdc",
+        "pattern": {
+            "naziv": "Basic React Course",
+            "tema": "React",
+            "opis": "Welcome to our six-week React course! Through interactive lectures, exercises, and projects, you will learn everything about React components, routing, state management, and API integration. With instructors by your side, you will become an expert in interface development. Join us and start your career in web development!",
+            "tezina": "Junior",
+            "preparationType": "Web Applications",
+            "learningStyle": "Interactive",
+            "dailyCommitment": "Once a week",
+            "predavac": "Ivana Kosor\u010di\u0107",
+            "cijena": "0\u20ac",
+            "duration": "8 weeks",
+            "slika": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQTEsvWjfokDYKQ3ZIlhi49CB9ZWkGyM90uUGUas_Z3A&s"
+        },
+        "response": "WdmntI8tiM9aw3dvvTdc"
+    },
+    {
+        "tag": "XEd3Gm2nQO7ZvKUUNWUR",
+        "pattern": {
+            "naziv": "Python for Mid Devs",
+            "tema": "Python",
+            "opis": "The Python course for intermediate programmers provides a deeper understanding of the language and its advanced concepts. Through practical examples and projects, participants will enhance their skills in object-oriented programming, database interaction, exception handling, and code optimization. The course will also focus on advanced topics such as functional programming, multithreading, and web application development using the Flask or Django frameworks. By the end of the course, participants will be capable of independently developing complex Python applications and solving challenging problems.The Python course for intermediate programmers provides a deeper understanding of the language and its advanced concepts. Through practical examples and projects, participants will enhance their skills in object-oriented programming, database interaction, exception handling, and code optimization. The course will also focus on advanced topics such as functional programming, multithreading, and web application development using the Flask or Django frameworks. By the end of the course, participants will be capable of independently developing complex Python applications and solving challenging problems.",
+            "tezina": "Mid",
+            "preparationType": "Basics",
+            "learningStyle": "Interactive",
+            "dailyCommitment": "Weekend",
+            "predavac": "Lucija Akrap",
+            "cijena": "450\u20ac",
+            "duration": "3 weeks",
+            "slika": "https://qph.cf2.quoracdn.net/main-qimg-28cadbd02699c25a88e5c78d73c7babc"
+        },
+        "response": "XEd3Gm2nQO7ZvKUUNWUR"
+    },
+    {
+        "tag": "w7HrfZfiQ0irVv972mBO",
+        "pattern": {
+            "naziv": "Wordpress VOL 2",
+            "tema": "Wordpress",
+            "opis": "You will master tools for configuring and modifying WordPress settings and interface themes. You will also master the use and installation of additional tools to expand functionality.",
+            "tezina": "Mid",
+            "preparationType": "Web Applications",
+            "learningStyle": "Live",
+            "dailyCommitment": "Once a week",
+            "predavac": "\u017dana Novak",
+            "cijena": "80\u20ac",
+            "duration": "2 weeks",
+            "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/1024px-WordPress_blue_logo.svg.png"
+        },
+        "response": "w7HrfZfiQ0irVv972mBO"
+    }
+]

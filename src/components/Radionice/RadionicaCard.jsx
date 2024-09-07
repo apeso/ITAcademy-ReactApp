@@ -5,7 +5,7 @@ import { getTemaByID } from '../../firebase/CRUD_Teme';
 import { getPredavacByID } from '../../firebase/CRUD_Predavaci';
 
 function RadionicaCard({ radionica }) {
-  const { naziv, opis, temaId, tezina, predavacId } = radionica;
+  const { naziv, opis, temaId, tezina, predavacId, pripremaType, stilUcenja, dnevnaPosvecenost, cijena, trajanje } = radionica;
   const [temaNaziv, setTemaNaziv] = useState('');
   const [predavacFullName, setPredavacFullName] = useState('');
 
@@ -46,12 +46,12 @@ function RadionicaCard({ radionica }) {
         margin: 2,
         padding: '10px',
         borderRadius: 2,
-        border:'3px solid grey',
+        border: '3px solid grey',
         overflow: 'hidden',
         transition: 'transform 0.3s, box-shadow 0.3s',
-        boxShadow: '0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1)', 
+        boxShadow: '0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1)',
         '&:hover': {
-          boxShadow: '0 20px 40px rgba(0,0,0,0.2), 0 12px 12px rgba(0,0,0,0.1)', // Hover shadow
+          boxShadow: '0 20px 40px rgba(0,0,0,0.2), 0 12px 12px rgba(0,0,0,0.1)',
         },
       }}
     >
@@ -75,6 +75,21 @@ function RadionicaCard({ radionica }) {
         </Typography>
         <Typography variant="body2" color="text.secondary">
           <b>Težina:</b> {tezina}
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          <b>Tip pripreme:</b> {pripremaType}
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          <b>Stil učenja:</b> {stilUcenja}
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          <b>Dnevna posvećenost:</b> {dnevnaPosvecenost}
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          <b>Cijena:</b> {cijena}
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          <b>Trajanje:</b> {trajanje}
         </Typography>
       </CardContent>
       <CardActions sx={{ alignSelf: 'center', padding: 2 }}>
