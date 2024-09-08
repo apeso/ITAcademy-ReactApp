@@ -1,5 +1,6 @@
 {
-  "intents": [
+  "intents":
+  [
     {
       "tag": "greeting",
       "patterns": ["Hi", "Hello", "Good day", "Hello", "What's up?", "Hey"],
@@ -8,32 +9,304 @@
     {
       "tag": "learning_goals",
       "patterns": ["I want to learn programming", "I need to improve my programming skills", "I'm interested in learning programming", "I want to program"],
+      "responses": ["Do you want to learn specific programming language or framework? Like Java, Python, React, Wordpress..."]
+    },
+      {
+      "tag": "workshop_java",
+      "patterns": [
+          "I am interested in a Java workshop",
+          "Java workshop",
+          "I want to learn Java",
+          "Do you have any Java workshops?",
+          "Can you recommend a Java workshop?",
+          "Java"
+        ],
+      "responses": ["What is your current level of programming knowledge?", "How would you rate your programming skills? Basic, intermediate, advanced?"]
+      
+    },
+    {
+      "tag": "workshop_react",
+      "patterns": [
+          "I am interested in a React workshop",
+          "React workshop",
+          "I want to learn React",
+          "Do you have any React workshops?",
+          "Can you recommend a React workshop?",
+          "React"
+        ],
       "responses": ["What is your current level of programming knowledge?", "How would you rate your programming skills? Basic, intermediate, advanced?"]
     },
     {
-      "tag": "skill_level",
-      "patterns": ["I'm a beginner", "I'm intermediate", "I'm advanced", "I'm a senior", "I have basic programming knowledge", "Basic", "Intermediate"],
-      "responses": ["Great! Would you like to develop a specific project? Web, mobile application, prepare for a job interview?", "What type of project are you interested in?"]
+      "tag": "workshop_php",
+      "patterns": [
+      "I am interested in a PHP workshop",
+      "PHP workshop",
+      "I want to learn PHP",
+      "Do you have any PHP workshops?",
+      "Can you recommend a PHP workshop?",
+      "PHP"
+      ],
+      "responses": ["What is your current level of programming knowledge?", "How would you rate your programming skills? Basic, intermediate, advanced?"]
+    },
+
+    {
+      "tag": "workshop_wordpress",
+      "patterns":[
+          "I am interested in a Wordpress workshop",
+          "Wordpress workshop",
+          "I want to learn Wordpress",
+          "Do you have any Wordpress workshops?",
+          "Can you recommend a Wordpress workshop?",
+          "Wordpress"
+        ],
+      "responses": ["What is your current level of programming knowledge?", "How would you rate your programming skills? Basic, intermediate, advanced?"]
     },
     {
-      "tag": "project_type",
-      "patterns": ["Develop a specific project", "Build a web/mobile/desktop application", "Create a portfolio project", "Work on a personal project", "Build something useful"],
-      "responses": ["Great! What method of learning do you prefer?", "Great. What type of learning do you prefer? Video lessons, live sessions, workshops, reading documentation..."]
+      "tag": "workshop_python",
+      "patterns":[
+          "I am interested in a Python workshop",
+          "Python workshop",
+          "I want to learn Python",
+          "Do you have any Python workshops?",
+          "Can you recommend a Python workshop?",
+          "Python"
+        ],
+      "responses": ["What is your current level of programming knowledge?", "How would you rate your programming skills? Basic, intermediate, advanced?"]
+    },
+
+    {
+      "tag": "workshop_C#",
+      "patterns":[
+          "I am interested in a C# workshop",
+          "C# workshop",
+          "I want to learn C#",
+          "Do you have any C# workshops?",
+          "Can you recommend a C# workshop?",
+          "C#"
+        ],
+      "responses": ["What is your current level of programming knowledge?", "How would you rate your programming skills? Basic, intermediate, advanced?"]
+    },
+
+    {
+      "tag": "workshop_Javascript",
+      "patterns":[
+          "I am interested in a JavaScript workshop",
+          "JavaScript workshop",
+          "I want to learn JavaScript",
+          "Do you have any JavaScript workshops?",
+          "Can you recommend a JavaScript workshop?",
+          "JavaScript"
+        ],
+      "responses": ["What is your current level of programming knowledge?", "How would you rate your programming skills? Basic, intermediate, advanced?"]
     },
     {
-      "tag": "preferred_learning_style",
-      "patterns": ["I prefer interactive tutorials", "Video lessons are my choice", "I enjoy reading documentation", "I want to participate in workshops", "I learn best through practice"],
-      "responses": ["How much time can you dedicate to learning each week?"]
+      "tag": "workshop_ruby",
+      "patterns": [
+        "I am interested in a Ruby workshop",
+        "Ruby workshop",
+        "I want to learn Ruby",
+        "Do you have any Ruby workshops?",
+        "Can you recommend a Ruby workshop?",
+        "Ruby"
+      ],
+      "responses": [
+        "What is your current level of programming knowledge?",
+        "How would you rate your programming skills? Basic, intermediate, advanced?",
+        "Are you looking for a beginner, intermediate, or advanced Ruby workshop?"
+      ]
     },
     {
-      "tag": "time_commitment",
-      "patterns": ["I can dedicate several hours daily", "I prefer longer sessions on weekends", "I have limited time", "I'm flexible with time", "I'm busy, but I can find time for learning"],
-      "responses": ["Do you have a budget for this learning?"]
+      "tag": "workshop_go",
+      "patterns": [
+        "I am interested in a Go workshop",
+        "Go workshop",
+        "I want to learn Go",
+        "Do you have any Go workshops?",
+        "Can you recommend a Go workshop?",
+        "Go"
+      ],
+      "responses": [
+        "What is your current level of programming knowledge?",
+        "How would you rate your programming skills? Basic, intermediate, advanced?",
+        "Are you looking for a beginner, intermediate, or advanced Go workshop?"
+      ]
+    },
+    {
+      "tag": "experience_junior",
+      "patterns": [
+        "I am a beginner",
+        "I am a junior",
+        "I have basic knowledge",
+        "I am new to programming",
+        "I have limited experience",
+        "Junior level"
+      ],
+      "responses": [
+        "Great! Would you like to develop a specific project? Here are some options: Basics, Web Applications, Mobile Applications?",
+        "What type of project are you interested in? Basics, Web Applications, Mobile Applications? "
+      ]
+    },
+    {
+      "tag": "experience_mid",
+      "patterns": [
+        "I am intermediate",
+        "I am a mid-level developer",
+        "I have some experience",
+        "I am mid-level",
+        "I have intermediate skills",
+        "Mid level"
+      ],
+      "responses": [
+        "Great! Would you like to develop a specific project? Here are some options: Basics, Web Applications, Mobile Applications?"
+      ]
+    },
+    {
+      "tag": "experience_senior",
+      "patterns": [
+        "I am advanced",
+        "I am a senior",
+        "I have extensive experience",
+        "I am a seasoned developer",
+        "I have advanced skills",
+        "Senior level"
+      ],
+      "responses": [
+        "Great! Would you like to develop a specific project? Here are some options: Basics, Web Applications, Mobile Applications.",
+        "What type of project are you interested in? Basics, Web Applications, Mobile Applications? "
+      ]
+    },
+    {
+      "tag": "basic_project",
+      "patterns": [
+        "Basic project",
+        "Nothing special",
+        "Learn basics",
+        "Learn esentials",
+        "I want to improve my coding basics.",
+        "I need to understand algorithms better.",
+        "I'm interested in learning about data structures.",
+        "I want to master basic syntax."
+        
+      ],
+      "responses": [
+        "Great! What method of learning do you prefer?", "Great. What type of learning do you prefer? Video lessons, live sessions, workshops, reading documentation..."
+      ]
+    },
+    {
+      "tag": "web_application",
+      "patterns": [
+        "Web application",
+        "I would like to do web application",
+        "Full stack application",
+        "Application",
+        "I want to build a website.",
+        "I'm interested in developing a web application."
+        
+      ],
+      "responses": [
+        "Great! What method of learning do you prefer?", "Great. What type of learning do you prefer? Video lessons, live sessions, workshops, reading documentation..."
+      ]
+    },
+    {
+      "tag": "mobile_application",
+      "patterns": [
+        "Mobile",
+        "Mobile application",
+        "Android application",
+        "IOS application",
+        "I want to create a mobile app.",
+        "I’m interested in Android development."
+        
+      ],
+      "responses": [
+        "Great! What method of learning do you prefer?", "Great. What type of learning do you prefer? Video lessons, live sessions, workshops, reading documentation..."
+      ]
+    },
+    {
+      "tag": "desktop_application",
+      "patterns": [
+        "Desktop applicaton"
+        
+      ],
+      "responses": [
+        "Great! What method of learning do you prefer?", "Great. What type of learning do you prefer? Video lessons, live sessions, workshops, reading documentation..."
+      ]
+    },
+    {
+      "tag": "video_lessons",
+      "patterns": [
+        "Video lessons",
+        "I prefer video tutorials",
+        "I like watching videos to learn",
+        "Video-based learning",
+        "I learn best through videos"
+      ],
+      "responses": [
+        "Great choice! How much time can you dedicate to learning each week?"
+      ]
+    },
+    {
+      "tag": "live_sessions",
+      "patterns": [
+        "Live sessions",
+        "I prefer live classes",
+        "I like interactive learning",
+        "Real-time sessions",
+        "Live teaching"
+      ],
+      "responses": [
+        "Great choice! How much time can you dedicate to learning each week?" 
+      ]
+    },
+    {
+      "tag": "workshops",
+      "patterns": [
+        "Workshops",
+        "I prefer hands-on workshops",
+        "I like interactive workshops",
+        "Workshops for practical experience",
+        "Hands-on learning"
+      ],
+      "responses": [
+        "Great choice! How much time can you dedicate to learning each week?"
+      ]
+    },
+    {
+      "tag": "time_dedication",
+      "patterns": [
+        "I can dedicate full-time hours",
+        "I have around 20-30 hours a week",
+        "I can spare 10-15 hours a week",
+        "I have 5-10 hours a week",
+        "I can fit in 1-5 hours a week",
+        "My schedule is flexible",
+        "My time is irregular",
+        "2 times a week",
+        "few times in a week"
+      ],
+      "responses": [
+        "Got it! Do you have a specific budget for this learning?",
+        "Thanks for letting me know. What budget range are you working with for this learning?"
+      ]
     },
     {
       "tag": "budget",
-      "patterns": ["I'm looking for free resources", "I'm open to paid courses", "I have no specific budget constraints", "Prefer free tutorials", "I have a limited budget"],
-      "responses": ["Based on your preferences, here are some recommended tutorials. Would you like more details on any of them?", "Here are some excellent programming tutorials. Let me know if you'd like more information on any of them."]
+      "patterns": [
+        "Yes, I have a budget",
+        "I don’t have a specific budget",
+        "I’m open to options within a reasonable range",
+        "I have a limited budget",
+        "I have a generous budget",
+        "No I do not have",
+        "I'm looking for free resources",
+         "I'm open to paid courses", 
+         "I have no specific budget constraints", 
+         "Prefer free tutorials"
+      ],
+      "responses": [
+        "Based on your preferences, here are some recommended tutorials. Click for more information on any of them.",
+         "Here are some excellent programming tutorials. Click for more information on any of them."
+      ]
     },
     {
       "tag": "thanks",
@@ -50,5 +323,7 @@
       "patterns": ["", "Hm...", "I don't understand", "Can you repeat?", "Sorry, I'm not sure I understand", "What do you mean?"],
       "responses": ["Sorry, I didn't quite get that. Can you please repeat or ask another question?", "Can you please repeat? I'm not sure I understood."]
     }
+
+
   ]
 }
